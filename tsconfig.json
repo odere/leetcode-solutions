@@ -1,0 +1,13 @@
+{
+    "baseUrl": "./src/",
+    "compilerOptions": {
+        "lib": [
+            "es2020"
+        ],
+        "module": "commonjs",
+        "target": "es2019"
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
