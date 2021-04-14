@@ -1,8 +1,10 @@
-import shortestToChar from './821-shortest-distance-to-a-character';
+import { shortestToChar } from './821-shortest-distance-to-a-character';
+import { twoNumberSum } from './categories/arrays/two-nummbers-sum';
 
-const s = 'loveleetcode'
-const c = 'e'
+console.group('shortestToChar');
+console.log(shortestToChar('loveleetcode', 'e'));
+console.groupEnd();
 
-const result = shortestToChar(s, c)
-
-console.log({ result })
+console.group('twoNumberSum');
+console.log(twoNumberSum([3, 5, -4, 8, 11, 1, -1, 6], 10));
+console.groupEnd();

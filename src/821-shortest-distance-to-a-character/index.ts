@@ -17,5 +17,3 @@ export function shortestToChar(s: string, c: string): number[] {
   }
   return result;
 }
-
-export default shortestToChar;

@@ -1,4 +1,4 @@
-import shortestToChar from './index';
+import { shortestToChar } from './index';
 
 describe('821-shortest-distance-to-a-character test utils:', () => {
   describe('shortestToChar:', () => {
