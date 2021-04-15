@@ -16,8 +16,14 @@ The closest occurrence of 'e' for index 8 is at index 6, so the distance is abs(
 
 ### Example 2
 
-Input: s = "aaab", c = "b"
-Output: [3,2,1,0]
+Input:
+```
+s = "aaab", c = "b"
+```
+Output:
+```
+[3,2,1,0]
+```
 
 ### Constraints
 
