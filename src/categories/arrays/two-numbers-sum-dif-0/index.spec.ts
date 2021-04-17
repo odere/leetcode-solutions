@@ -84,7 +84,7 @@ describe('twoNumberSum:', () => {
         });
     });
 
-    describe('Solution 3 - // O(nlog(n)) time | O(1) space:', () => {
+    describe('Solution 3 - O(nlog(n)) time | O(1) space:', () => {
         testCases.forEach((testCase, index) => {
             const { array, targetSum, expectedResult } = testCase;
 
